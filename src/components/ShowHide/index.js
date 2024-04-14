@@ -2,6 +2,8 @@
 import {Component} from 'react'
 import './index.css'
 
+
+
 class ShowHide extends Component {
   state = {firstName: false, lastName: false}
 
@@ -16,6 +18,8 @@ class ShowHide extends Component {
   render() {
     const {firstName} = this.state
     const {lastName} = this.state
+console.log(firstName)
+    
     return (
       <div className="bg-container">
         <div>
